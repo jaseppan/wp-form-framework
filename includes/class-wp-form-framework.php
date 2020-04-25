@@ -121,6 +121,12 @@ class Wp_Form_Framework {
 		 * side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wp-form-framework-public.php';
+		
+		/**
+		 * The class responsible for creating form fields
+		 * side of the site.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wp-form-framework-fields.php';
 
 		$this->loader = new Wp_Form_Framework_Loader();
 
